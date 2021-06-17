@@ -3,5 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/springcloud-parent/springcloud-01eureka-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-parent/springcloud-02eureka-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-parent/springcloud-03users9999/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-parent/springcloud-04products9998/src/main/java" charset="UTF-8" />
   </component>
 </project>
