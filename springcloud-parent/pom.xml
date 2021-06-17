@@ -13,6 +13,7 @@
         <module>springcloud-02eureka-client</module>
         <module>springcloud-03users9999</module>
         <module>springcloud-04products9998</module>
+        <module>springcloud-05ribbon9997</module>
     </modules>
 
     <!-- 继承SpringBoot父项目 -->
