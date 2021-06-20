@@ -10,6 +10,8 @@
         <module name="springcloud-04products9998" />
         <module name="springcloud-02eureka-client" />
         <module name="springcloud-01eureka-server" />
+        <module name="springcloud-05ribbon9997" />
+        <module name="springcloud-06openfeign9996" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +19,8 @@
       <module name="springcloud-02eureka-client" target="8" />
       <module name="springcloud-03users9999" target="8" />
       <module name="springcloud-04products9998" target="8" />
+      <module name="springcloud-05ribbon9997" target="1.8" />
+      <module name="springcloud-06openfeign9996" target="8" />
       <module name="springcloud-parent" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -26,6 +30,8 @@
       <module name="springcloud-02eureka-client" options="-parameters" />
       <module name="springcloud-03users9999" options="-parameters" />
       <module name="springcloud-04products9998" options="-parameters" />
+      <module name="springcloud-05ribbon9997" options="-parameters" />
+      <module name="springcloud-06openfeign9996" options="-parameters" />
     </option>
   </component>
 </project>

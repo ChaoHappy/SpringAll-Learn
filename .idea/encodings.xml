@@ -5,5 +5,7 @@
     <file url="file://$PROJECT_DIR$/springcloud-parent/springcloud-02eureka-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-parent/springcloud-03users9999/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-parent/springcloud-04products9998/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-parent/springcloud-05ribbon9997/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-parent/springcloud-06openfeign9996/src/main/java" charset="UTF-8" />
   </component>
 </project>
