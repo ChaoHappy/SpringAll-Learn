@@ -15,6 +15,7 @@
         <module>springcloud-04products9998</module>
         <module>springcloud-05ribbon9997</module>
         <module>springcloud-06openfeign9996</module>
+        <module>springcloud-07gateway9995</module>
     </modules>
 
     <!-- 继承SpringBoot父项目 -->

@@ -1,0 +1,25 @@
+server:
+  port: 9995
+spring:
+  application:
+    name: GATEWAY
+  cloud:
+    gateway:
+      routes:
+        - id: user_route  # 指定路由唯一标识
+          uri: http://localhost:9999/ # 指定路由服务的地址
+          predicates:
+            - Path=/user/**  # 指定路由规则
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"   #暴露路由规则web端点  /actuator/gateway/routes
+  endpoint:
+    gateway:
+      enabled: true
