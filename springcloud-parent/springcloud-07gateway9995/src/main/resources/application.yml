@@ -7,19 +7,20 @@ spring:
     gateway:
       routes:
         - id: user_route  # 指定路由唯一标识
-          uri: http://localhost:9999/ # 指定路由服务的地址
+#          uri: http://localhost:9999/ # 指定路由服务的地址
+          uri: lb://usersclient9999 # lb代表转发后台服务使用负载均衡,usersclient9999代表服务注册中心上的服务名
           predicates:
             - Path=/user/**  # 指定路由规则
+
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
 
+
 management:
   endpoints:
     web:
       exposure:
-        include: "*"   #暴露路由规则web端点  /actuator/gateway/routes
-  endpoint:
-    gateway:
-      enabled: true
+        include: "*"
+

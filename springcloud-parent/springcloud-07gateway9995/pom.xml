@@ -12,7 +12,6 @@
     <artifactId>springcloud-07gateway9995</artifactId>
 
     <dependencies>
-
         <!--引入eureka client-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -22,6 +21,11 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-gateway</artifactId>
+        </dependency>
+        <!--监控检查依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
     </dependencies>
 
