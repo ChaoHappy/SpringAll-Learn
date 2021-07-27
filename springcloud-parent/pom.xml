@@ -17,6 +17,7 @@
         <module>springcloud-06openfeign9996</module>
         <module>springcloud-07gateway9995</module>
         <module>springcloud-08config9994</module>
+        <module>springcloud-09configclient9993</module>
     </modules>
 
     <!-- 继承SpringBoot父项目 -->
