@@ -2,12 +2,12 @@ package com.chp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.config.server.EnableConfigServer;
 
 @SpringBootApplication
-@EnableEurekaClient
-public class GateWay9995Application {
+@EnableConfigServer
+public class Config9994Application {
     public static void main(String[] args) {
-        SpringApplication.run(GateWay9995Application.class,args);
+        SpringApplication.run(Config9994Application.class,args);
     }
 }
