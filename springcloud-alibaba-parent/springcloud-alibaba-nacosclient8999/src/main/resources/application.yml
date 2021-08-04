@@ -1,0 +1,9 @@
+server:
+  port: 8999
+
+spring:
+  application:
+    name: NACOSCLIENT
+  cloud:
+    nacos:
+      server-addr: localhost:8848  # 指定注册中心地址
