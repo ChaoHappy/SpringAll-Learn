@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>springcloud-alibaba-nacosclient8999</module>
+        <module>springcloud-alibaba-nacosconfig8997</module>
     </modules>
 
     <!--定义springcloud版本-->

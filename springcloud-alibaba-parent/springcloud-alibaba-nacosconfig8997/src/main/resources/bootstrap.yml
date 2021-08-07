@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848 # 获取配置的地址
+        group: DEFAULT_GROUP # 指定从哪个组中获取配置
+        name: config-dev  # 指定配置文件名称
+        file-extension: yml # 指定文件后缀
+        namespace: f517a414-9cc9-4593-b915-98193d3e0f6d # 指定命名空间
