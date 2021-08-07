@@ -1,0 +1,13 @@
+server:
+  port: 8997
+spring:
+  application:
+    name: SENTINEL
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+    sentinel:
+      enabled: true # 开启sentinel服务（默认开启）
+      transport:
+        dashboard: localhost:9191 # 连接sentinel dashboard
+        port: 8719 # 指定与dashboard通信的端口
